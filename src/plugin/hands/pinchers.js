@@ -46,9 +46,6 @@ export default {
     [{x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}, {x: 0, y: 0}]
   ],
 
-  // Number of frames that has passed since the last grab
-  numFramesFocused: [[0, 0, 0, 0,], [0, 0, 0, 0]],
-
   // Number of frames mouse has been downed
   mouseDowned: 0,
   // Is the mouse up?

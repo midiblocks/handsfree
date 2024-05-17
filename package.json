@@ -4,12 +4,7 @@
   "description": "Quickly integrate face, hand, and/or pose tracking to your frontend projects in a snap ✨👌",
   "main": "build/lib/handsfree.js",
   "scripts": {
-    "start": "vuepress dev docs",
-    "build": "npm run build:lib && npm run build:docs && npm run build:extension",
-    "build:lib": "rm -rf build/lib && rollup --environment INCLUDE_DEPS,BUILD:production --config",
-    "build:docs": "vuepress build docs",
-    "build:extension": "vuepress build docs --dest build/extension",
-    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js --dest=docs",
+    "build": "rm -rf build/lib && rollup --environment INCLUDE_DEPS,BUILD:production --config",
     "deploy": "npm publish && deploy.sh"
   },
   "repository": {
@@ -28,15 +23,9 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^15.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "markdown-it-deflist": "^2.1.0",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.0.0",
     "rollup": "^2.32.0",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-copy": "^3.3.0",
-    "vuepress": "^1.7.1",
-    "vuepress-plugin-font-awesome": "^1.90.6",
-    "vuepress-plugin-plausible": "0.0.2"
+    "rollup-plugin-copy": "^3.3.0"
   },
   "dependencies": {
     "fingerpose": "0.0.2",

@@ -177,15 +177,6 @@ export default {
   },
 
   /**
-   * Toggle pointer
-   */
-  onDisable() {
-    this.$pointer.forEach($pointer => {
-      $pointer.classList.add('handsfree-hidden')
-    })
-  },
-
-  /**
    * Toggle pointers
    */
   showPointers () {

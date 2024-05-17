@@ -1,0 +1,29 @@
+{
+  "name": "handsfree-docs",
+  "version": "8.5.1",
+  "description": "Quickly integrate face, hand, and/or pose tracking to your frontend projects in a snap ✨👌",
+  "scripts": {
+    "start": "vuepress dev",
+    "build": "vuepress build",
+    "build:extension": "vuepress build --dest build/extension",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midiblocks/handsfree.git"
+  },
+  "author": "Oz Ramos <midiblocks@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/midiblocks/handsfree/issues"
+  },
+  "homepage": "https://github.com/midiblocks/handsfree#readme",
+  "devDependencies": {
+    "markdown-it-deflist": "^2.1.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-font-awesome": "^1.90.6",
+    "vuepress-plugin-plausible": "0.0.4"
+  }
+}
