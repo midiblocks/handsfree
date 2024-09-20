@@ -1,25 +1,8 @@
-# 22-02-28 This project has been archived
-It's with a very heavy heart that I'm moving this project into archive. I started this project in 2018 while I was homeless in order to help a friend at the shelter I was staying at who was recovering from a stroke. I didn't even have my own computer until engineers from Google visited me at the shelter and bought me one.
+# 24-05-17 This project has been archived
 
-The problem is that although I eventually made it out of homelessness, I was only able to raise just enough support to barely stay afloat (in fact, people have sent me food boxes, have helped pay my bills, and have helped me purchase things like webcams and tools to explore). I actually became homeless again last summer after I was assaulted and hospitalized in a random act of violence from a crazy neighbor. I was afraid to live in my apartment and was homeless while I transferred the lease to a new place as I wasn't able to raise enough support.
+I hope that the original author of this package, Oz, is doing well. But given that Handsfree seemed to have been abandonned, I have restored this repository and the associated NPM package in case anybody is still using it. The project is still essentially in an archived state, but I can try to address any issues moving forward.
 
-It's been 4 years and I get panic attacks when I get notifications on this project because it's a very heavy feeling to have put so much work into this and related tools without enough support. I don't have a car or even a bycicle, I am on food stamps, occasionally I shoplift essentials like soap and toothpaste, and I've spent months inpatient at mental health centers from the burnout of trying to raise support for this project.
-
-All we can do is try our best, and I can definitely say I gave it my best. I've rewritten the library from scratch 8 times (including the interactive documentation), I've created integrations for various platforms and libraries, I've created chrome extension starter kits with well researched security/privacy features (which I even consulted Mozilla on), and I've created dozens of examples, tutorials, and streams.
-
-I plan on writing a summary of my experiences in developing this library and the people with disabilities which I've helped through it and will eventually publish it on my site at ozramos.com. I'm archiving this project because I would like to try and find a job and use it on my portfolio, but I don't want people to use it without realizing that there is no more support. Please feel free to fork and continue it however
-
-I need to archive this project now and try to work on something that will generate money.
-I'm sorry,
-- Oz
-
-<br>
-<br>
-<br>
 <hr>
-<br>
-<br>
-<br>
 
 <div align="center">
   <p><a href="https://handsfree.js.org"><img src="https://media2.giphy.com/media/BBcnSU1IJ5tpQbwXDI/giphy.gif" alt="handsfree.js.org" title="handsfree.js.org"></a></p>
